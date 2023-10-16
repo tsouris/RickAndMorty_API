@@ -5,6 +5,8 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RickAndMorty_API", "RickAndMorty_API.csproj", "{1C955562-4862-495C-BA80-9F7C0D6A9AF6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RickAndMorty_API_CORE", "..\RickAndMorty_API_CORE\RickAndMorty_API_CORE.csproj", "{4C9433AE-B474-4DFA-ADAE-6CCFEFCD5BFC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{1C955562-4862-495C-BA80-9F7C0D6A9AF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C955562-4862-495C-BA80-9F7C0D6A9AF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C955562-4862-495C-BA80-9F7C0D6A9AF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C9433AE-B474-4DFA-ADAE-6CCFEFCD5BFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C9433AE-B474-4DFA-ADAE-6CCFEFCD5BFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C9433AE-B474-4DFA-ADAE-6CCFEFCD5BFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C9433AE-B474-4DFA-ADAE-6CCFEFCD5BFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -7,4 +7,26 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Assets\Fonts\Creepster\Creepster-Regular.ttf" />
+    <None Remove="Assets\Fonts\Creepster\OFL.txt" />
+    <None Remove="Assets\Images\LArrow.png" />
+    <None Remove="Assets\Images\RArrow %281%29.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignThemes" Version="4.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RickAndMorty_API_CORE\RickAndMorty_API_CORE.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Fonts\Creepster\Creepster-Regular.ttf" />
+    <Resource Include="Assets\Fonts\Creepster\OFL.txt" />
+    <Resource Include="Assets\Images\LArrow.png" />
+    <Resource Include="Assets\Images\RArrow (1).png" />
+  </ItemGroup>
+
 </Project>
